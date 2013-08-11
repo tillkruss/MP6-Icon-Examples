@@ -15,4 +15,4 @@ Using another icon font is easy, too. `mp6-font-icon.php` demonstrates how to do
 
 ## Method C: SVG as Background Image
 
-Adding a custom SVG as CSS background image requires a Dashicon as fallback, since SVG [is not supported](http://caniuse.com/svg-css) by all major browsers. Example code in `mp6-svg-icon.php`.
+Adding a custom SVG as CSS background image is a little trickier. Because [SVG browser support](http://caniuse.com/svg-css) is limited, this method requires a Dashicon as fallback. The example code in `mp6-svg-icon.php` illustrates how to do that and contains a few more details about this method.
