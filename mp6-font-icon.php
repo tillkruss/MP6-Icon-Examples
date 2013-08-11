@@ -7,7 +7,7 @@ function set_custom_font_icon() {
 
 		/* replace `{menu-slug}` with the slug name you passed `add_menu_page()` */
 
-		#toplevel_page_{menu-slug} .wp-menu-image:before {
+		.mp6 #toplevel_page_{menu-slug} .wp-menu-image:before {
 			font-family: FontAwesome !important;
 			content: '\f07a';
 		}
