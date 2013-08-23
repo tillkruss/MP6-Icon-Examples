@@ -6,7 +6,7 @@ function set_custom_svg_icon() {
 ?>
 	<style type="text/css">
 
-		/* replace `{menu-slug}` with the slug name you passed `add_menu_page()` */
+		/* replace `{menu-slug}` with the slug name passed to `add_menu_page()` */
 
 		/* set fallback dashicon, if browser does _not_ support SVG */
 		.mp6.no-svg #toplevel_page_{menu-slug} .wp-menu-image:before {
