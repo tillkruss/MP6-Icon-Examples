@@ -10,17 +10,17 @@ function set_custom_svg_icon() {
 		/* for custom post types replace `#toplevel_page_{post_type}` with `#menu-posts-{post_type}` and replace `{post_type}` with the slug name passed to `register_post_type()` */
 
 		/* set fallback dashicon, if browser does _not_ support SVG */
-		.mp6.no-svg #toplevel_page_{menu-slug} .wp-menu-image:before {
+		.no-svg #toplevel_page_{menu-slug} div.wp-menu-image:before {
 			content: '\f174';
 		}
 
 		/* hide fallback dashicon, if browser _does_ supports SVG and JavaScript */
-		.mp6.svg.js #toplevel_page_{menu-slug} .wp-menu-image:before {
+		.svg.js #toplevel_page_{menu-slug} .wp-menu-image:before {
 			display: none;
 		}
 
 		/* set SVG background image, if browser supports SVG and JavaScript */
-		.mp6.svg.js #toplevel_page_{menu-slug} .wp-menu-image {
+		.svg.js #toplevel_page_{menu-slug} .wp-menu-image {
 			/*
 				The `background-image` must be base64-encoded and needs an `!important` declaration
 				for MP6 to be able to adjust the color of the SVG to match the admin color scheme.
